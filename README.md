@@ -1,50 +1,44 @@
-# React + TypeScript + Vite
+# Weatherny - Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Created by: Soufiane Meziouad
 
-Currently, two official plugins are available:
+Weatherny is a user-friendly, simple weather application that helps you stay updated on current weather conditions. With just a few clicks, you can get the latest weather information for any location worldwide.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+### Features:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Real-time weather updates**: Get current weather conditions, temperature, humidity, wind speed, and more.
+- **Location-based**: Search weather by city or allow the app to detect your current location.
+- **Simple & Intuitive UI**: A sleek, easy-to-use interface designed for quick weather checks.
+- **Global Coverage**: Get weather data for any city around the globe.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Technologies Used:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Frontend**: React
+- **API**: OpenWeatherMap API
+- **Styling**: CSS
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### How to Use:
+
+1. Open the app.
+2. Type in your city name or use your current location.
+3. View the current weather conditions, including temperature, humidity, wind speed, and more.
+
+---
+
+### Future Enhancements:
+
+- Forecast for the next few days.
+- Interactive maps for weather patterns.
+- Weather alerts for severe conditions.
+
+---
+
+---
+
+**Thank you for using Weatherny! Stay informed, stay prepared.**
