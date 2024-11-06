@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-	font-family: "Poppins", "rh-zak";
+	font-family: "Poppins", sans-serif, "rh-zak";
 }
 
 #weather {
