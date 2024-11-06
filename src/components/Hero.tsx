@@ -12,7 +12,6 @@ export const Hero = () => {
 	const date = data?.location.localtime.split(" ")[1];
 	if (status === "error") return <div className="text-center">error</div>;
 	if (status === "pending") return <div className="text-center">loading</div>;
-	console.log(data);
 	return (
 		<section className="w-max p-10 min-h-10/12  bg-white/10 backdrop-blur-md rounded-lg drop-shadow-lg border-white border-2 mx-auto ">
 			<div className="grid place-items-center w-max  rounded-md drop-shadow-sm mx-auto px-8 py-16">
