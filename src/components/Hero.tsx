@@ -74,7 +74,7 @@ export const Hero = () => {
 				</div>
 			</div>
 			<div className="grid place-items-center gap-2">
-				<input type="text" className="border-2 rounded-lg py-1 px-2" onChange={(e) => setCity(e.target.value)} />
+				<input placeHolder="City"type="text" className="border-2 rounded-lg py-1 px-2" onChange={(e) => setCity(e.target.value)} />
 				<button
 					onClick={() => {
 						setFetchCity(city);
